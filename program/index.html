@@ -13,16 +13,38 @@
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
     <title>Program | Conference Template</title>
+    <style>
+        .banner {
+            position: relative;
+            text-align: center;
+            padding-top: 20px; /* Add some padding at the top */
+        }
+        .banner img {
+            width: 100%; /* Make the image responsive */
+        }
+        .top-center {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            background: rgba(255, 255, 255, 0.8); /* Optional: add a background to make text more readable */
+            padding: 10px; /* Optional: add padding */
+        }
+        .title1, .title2, .year {
+            font-size: 1.5em; /* Adjust the font size as needed */
+        }
+    </style>
 </head>
 
 <body>
 
     <div class="banner">
-        <img src="assets/agecon.jpeg" alt="Conference Template Banner">
-        <div class="top-center">
+        <div class="top-left">
             <span class="title1">AAEC</span><span class="title2">ResConn</span> 
         </div>
-        <div class="bottom-center">
+        <img src="assets/agecon.jpeg" alt="Conference Template Banner">
+
+        <div class="bottom-right">
             <br> University of Georgia, Athens
         </div>
     </div>
